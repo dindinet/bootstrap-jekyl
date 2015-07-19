@@ -1,16 +1,18 @@
-# Site settings
 title: Clean Blog
 header-img: img/home-bg.jpg
-email: dklongley@postpal.com
-description: "Just one of the modern website templates you can choose to use with your website"
-baseurl: "/bootstrap-jekyl"
+email: "dklongley@postpal.com"
+description: Just one of the modern website templates you can choose to use with your website
+baseurl: ""
 url: "http://clean.postpal.com"
 twitter_username: dklongley
-github_username:  dindinet
-
-# Build settings
+github_username: dindinet
 markdown: kramdown
 highlighter: pygments
 permalink: pretty
 paginate: 5
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+exclude:
+  - less
+  - node_modules
+  - Gruntfile.js
+  - package.json
+  - README.md
