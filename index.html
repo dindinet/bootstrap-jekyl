@@ -1,6 +1,6 @@
 ---
 layout: page
-description: "A Clean Blog Theme by Start Bootstrap"
+description: A Clean Blog Theme by Start Bootstrap
 ---
 
 {% for post in paginator.posts %}
@@ -16,7 +16,7 @@ description: "A Clean Blog Theme by Start Bootstrap"
     </a>
     <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
 </div>
-<hr>
+<hr />
 {% endfor %}
 
 <!-- Pager -->
@@ -34,4 +34,4 @@ description: "A Clean Blog Theme by Start Bootstrap"
     {% endif %}
 </ul>
 {% endif %}
-<div class="editable">This is where all the magic goes down bro.</div>
+<div class="editable"><p>This is where all the magic goes down bro.</p><p>Don't you just love the way the flow flows and the content grows.</p></div>
