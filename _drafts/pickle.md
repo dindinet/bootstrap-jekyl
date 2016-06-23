@@ -5,4 +5,5 @@ subtitle: because they lacked opposable thumbs and the brainpower to build a spa
 date: 2014-06-10T12:00:00.000Z
 author: The Postpal
 header-img: img/post-bg-01.jpg
+SEO-description: A paragrah to describe the post no more than 160 characters including spaces
 ---
