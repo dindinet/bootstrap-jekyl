@@ -1,12 +1,16 @@
 ---
+title: Man must explore, and this is exploration at its greatest
+date: '2014-09-24 12:00:00'
+categories: ''
 layout: page
-title: "Man must explore, and this is exploration at its greatest"
 subtitle: Problems look mighty small from 150 miles up
-date: 2014-09-24T12:00:00.000Z
 author: Start Bootstrap
 header-img: img/post-bg-06.jpg
----
+slug: ''
+tags: []
+SEO-description: SEO Description
 
+---
 Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center &mdash; an equal earth which all men occupy as equals. The airman&#39;s earth, if free men make it, will be truly round: a globe in practice, not in theory.
 
 ![](/uploads/versions/post-bg-06---&#40;----1900-600&#41;---.jpg)
