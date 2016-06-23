@@ -3,7 +3,7 @@ header-img: img/home-bg.jpg
 email: "dklongley@postpal.com"
 description: Just one of the modern website templates you can choose to use with your website
 baseurl: /template-bootstrap-jekyl
-url: "http://clean.postpal.com"
+url: "http://dindinet.github.io/template-bootstrap-jekyl/"
 twitter_username: dklongley
 github_username: dindinet
 defaults:
