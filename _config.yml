@@ -13,6 +13,11 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      title: "Your Title"
+      subtitle:   "Your Sub Title"
+      date:       2014-06-10 12:00:00
+      author:     "Author"
+      header-img: "header.jpg"
       slug: ""
       tags: ""
       category: ""
