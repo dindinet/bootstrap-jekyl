@@ -28,11 +28,11 @@ defaults:
     values:
       layout: "page"
       title: "Your Title"
-      Description:   "Description"
+      description:   "Description"
       date:       2014-06-10 12:00:00
       header-img: "header.jpg"
       slug: ""
-      SEO-Description: "SEO Description"
+      SEO-description: "SEO Description"
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
