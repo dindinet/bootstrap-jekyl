@@ -21,6 +21,7 @@ defaults:
       slug: ""
       tags: ""
       category: ""
+      SEO-description: "SEO Description"
   -
     scope:
       path: ""
