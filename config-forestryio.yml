@@ -10,7 +10,7 @@
 
     <title>Your Title - Clean Blog</title>
 
-    <link rel="canonical" href="/template-bootstrap-jekyl/">
+    <link rel="canonical" href="/template-bootstrap-jekyl/config-forestryio.yml">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/template-bootstrap-jekyl/css/bootstrap.min.css">
@@ -95,7 +95,7 @@
                 <div class="site-heading">
                     <h1>Your Title</h1>
                     <hr class="small">
-                    <span class="subheading">A Clean Blog Theme by Start Bootstrap</span>
+                    <span class="subheading">Description</span>
                 </div>
             </div>
         </div>
@@ -106,10 +106,53 @@
 <div class="container">
 	<div class="row">
 		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-			
-
-<!-- Pager -->
-
+			---
+title: Clean Blog
+header-img: img/home-bg.jpg
+email: dklongley@postpal.com
+description: Just one of the modern website templates you can choose to use with your
+  website
+baseurl: "/template-bootstrap-jekyl"
+url: ''
+twitter_username: dklongley
+github_username: dindinet
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    title: Your Title
+    subtitle: Your Sub Title
+    date: 2014-06-10 12:00:00.000000000 +00:00
+    author: Author
+    header-img: https://lh3.googleusercontent.com/lHUN41A-or8BGViN3CB0Y-f3t1flGo_ioqaH_iuGUhs61HR-ei76BJw1YB29gAq8GlypCt4SPk4MopAiubiFDG9KHc8hHACtBszMBSI8hIcQXDL4T-oR4kxuUi2usEjXg-hb0zoBWZw7RotTketjMCqFrBpoR1ZY7U3M6OAVDlsoHKAtrttH7h8EPAkPh1w9F1UoW1WtAmvcH_c9m7-1dtZ7O3OH_BoxT4ppWo1iYHG9saq6AK981xr_Cm3Ewh3s4och8lyTbiUTmryBbnNzw77Fmw9TfR1-I3ScG9CEWdAvW1xPk6v-n_VZYnRLOd3haZyk_TmxpQsnQrgMkY-jgBDOUVNLHhPi232CQ7eHOyKTwD5PCLcYDiSrIKksF_StOntXELgrPimNPzLXltGjoipXDTS47Wo9MIuDhpCMgr4uMnOpi4rIuxhYmNMlxN8tjqr_62Ti3dNP-PM0E1UWiQKu26VwvGEorMvFOgCLE0mDADvCBpCVS702PQPm7uaba3KadGypgPGPq1lbq-Ag93vMBfRdbk7ps9cKt2aMmhLF-Dr3uruPm65cF1XSf7G8DHsW6mrFBRa1twJOkSb5VONNsN2yfNBIyCp775iw__IxftPn=w1664-h936-no
+    slug: ''
+    tags: ''
+    category: ''
+    SEO-description: SEO Description
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+    title: Your Title
+    description: Description
+    date: 2014-06-10 12:00:00.000000000 +00:00
+    header-img: https://lh3.googleusercontent.com/lHUN41A-or8BGViN3CB0Y-f3t1flGo_ioqaH_iuGUhs61HR-ei76BJw1YB29gAq8GlypCt4SPk4MopAiubiFDG9KHc8hHACtBszMBSI8hIcQXDL4T-oR4kxuUi2usEjXg-hb0zoBWZw7RotTketjMCqFrBpoR1ZY7U3M6OAVDlsoHKAtrttH7h8EPAkPh1w9F1UoW1WtAmvcH_c9m7-1dtZ7O3OH_BoxT4ppWo1iYHG9saq6AK981xr_Cm3Ewh3s4och8lyTbiUTmryBbnNzw77Fmw9TfR1-I3ScG9CEWdAvW1xPk6v-n_VZYnRLOd3haZyk_TmxpQsnQrgMkY-jgBDOUVNLHhPi232CQ7eHOyKTwD5PCLcYDiSrIKksF_StOntXELgrPimNPzLXltGjoipXDTS47Wo9MIuDhpCMgr4uMnOpi4rIuxhYmNMlxN8tjqr_62Ti3dNP-PM0E1UWiQKu26VwvGEorMvFOgCLE0mDADvCBpCVS702PQPm7uaba3KadGypgPGPq1lbq-Ag93vMBfRdbk7ps9cKt2aMmhLF-Dr3uruPm65cF1XSf7G8DHsW6mrFBRa1twJOkSb5VONNsN2yfNBIyCp775iw__IxftPn=w1664-h936-no
+    slug: ''
+    SEO-description: SEO Description
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude:
+- less
+- node_modules
+- Gruntfile.js
+- package.json
+- README.md
+timezone: 
 
 		</div>
 	</div>
