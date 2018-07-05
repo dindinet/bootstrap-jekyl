@@ -1,0 +1,43 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- name: title
+  default: About
+  label: Title
+  type: text
+  hidden: false
+- name: layout
+  default: page
+  label: Layout
+  type: text
+  hidden: false
+- name: description
+  default: This is what I do.
+  label: Description
+  type: text
+  hidden: false
+- name: header-img
+  default: img/about-bg.jpg
+  label: Header img
+  type: file
+  hidden: false
+- name: date
+  default: 2014-06-10 12:00:00 +0000
+  label: Date
+  type: datetime
+  hidden: false
+- name: slug
+  default: ''
+  label: Slug
+  type: text
+  hidden: false
+- name: SEO-description
+  default: SEO Description
+  label: Seo description
+  type: text
+  hidden: false
+pages:
+- contact.html
+- index.html
+- about.html

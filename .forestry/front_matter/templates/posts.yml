@@ -1,0 +1,69 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- name: title
+  default: Dinosaurs are extinct today
+  label: Title
+  type: text
+  hidden: false
+- name: date
+  default: 2014-06-10 00:00:00 +0000
+  label: Date
+  type: datetime
+  hidden: false
+- name: categories
+  default: ''
+  label: Categories
+  type: text
+  hidden: false
+- name: layout
+  default: post
+  label: Layout
+  type: text
+  hidden: false
+- name: subtitle
+  default: because they lacked opposable thumbs and the brainpower to build a space
+    program.
+  label: Subtitle
+  type: textarea
+  hidden: false
+- name: author
+  default: The Postpal
+  label: Author
+  type: text
+  hidden: false
+- name: header-img
+  default: img/post-bg-01.jpg
+  label: Header img
+  type: file
+  hidden: false
+- name: slug
+  default: ''
+  label: Slug
+  type: text
+  hidden: false
+- name: tags
+  default: []
+  label: Tags
+  type: list
+  hidden: false
+- name: SEO-description
+  default: SEO Description
+  label: Seo description
+  type: text
+  hidden: false
+- name: category
+  default: 
+  label: Category
+  type: text
+  hidden: false
+pages:
+- _posts/2016-06-23-in-out.md
+- _posts/2014-07-08-failure-is-not-an-option.markdown
+- _posts/2014-09-24-man-must-explore-and-this-is-exploration-at-its-greatest.markdown
+- _posts/2014-07-01-the-dreams-of-yesterday-are-the-hopes-of-today-and-the-reality-of-tomorrow-.markdown
+- _posts/2014-06-10-dinosaurs.markdown
+- _posts/2015-07-17-we-have-to-change-this-so-that-something-elsse-will-be-read.md
+- _posts/2014-09-18-i-believe-every-human-has-a-finite-number-of-heartbeats--i-dont-intend-to-waste-any-of-mine-.markdown
+- _posts/2014-08-24-science-has-not-yet-mastered-prophecy.markdown
